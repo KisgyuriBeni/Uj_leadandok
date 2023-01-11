@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-position-x: 150px fixed;
+    background-image: url(./baseball-background.jpg);
+    background-repeat:no-repeat ;
+    background-size: 960px;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width: 800px;
+    padding: 20px;
+    border: 2px solid red;
+    border-bottom: none;
+    border-top: none;
+}
+.header h1 a{
+    text-decoration: none;
+}
+
+.content{
+    background-color: white;
+}
+.content span{
+    color: red;
+    font-style: bold;
+}
+
+.frame {
+    padding:20px;
+    margin:10px;
+    float: right;
+    max-width: 150px;
+    display: block;
+    border-left: 2px solid black ;
+}
+
+.frame p{
+    font-style: italic;
+}
+
+.frame img{
+    width: 150px;
+}
+
